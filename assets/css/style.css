@@ -248,227 +248,127 @@ address {
         font-style: normal;
     }
 }
-/* 
-h1 {
-    position: absolute;
-    width: 17.5rem;
-    height: 3rem;
-    left: 15.2rem;
-    top: 6.8rem;
-    font-family: PT Serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2.25rem;
-    line-height: 3rem;
-    letter-spacing: -0.045em;
-    color: black;
-}
 
-h3 {
-    position: absolute;
-    width: 7.5rem;
-    height: 1.7rem;
-    left: 46rem;
-    top: 6.8rem;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.125rem;
-    line-height: 1.7rem;
-    text-transform: uppercase;
-    color: black;
-}
-
-p.content {
-    position: absolute;
-    width: 27.4375rem;
-    height: 5.4375rem;
-    left: 46rem;
-    top: 9.1875rem;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.125rem;
-    line-height: 1.7rem;
-    color: black;
-}
-
-.container {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 57.8125rem;
-    max-width: 100%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    margin-top: 20.625rem;
-}
-
-.container img {
-    width: 15rem;
-}
-
-.container .role {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    position: absolute;
-    top: 0px;
-    left: 14.6875rem;
-    text-transform: uppercase;
-    width: 1rem;
-    height: 7.8125rem;
-    font-family: PT Serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.75rem;
-    line-height: 1rem;
-}
-
-.container p {
-    position: absolute;
-    width: 9.375rem;
-    height: 1.5625rem;
-    top: 21.25rem;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.125rem;
-    line-height: 1.035rem;
-    color: black;
-}
-
-.photo-container {
-    position: relative;
-}
-
-.mid {
-    margin-top: 4.125rem;
-}
-
-.mid .role {
-    top: 2.0625rem;
-}
-
-.mid img {
-    padding-top: 2.0625rem;
-    padding-left: 2.2725rem;
-    padding-right: 1.875rem;
-}
-
-.mid p {
-    padding-left: 2.0625rem;
-    top: 23.75rem;
-}
-
-footer {
-    margin: 0 auto;
-    padding-top: 9.375rem;
-    padding-bottom: 3.125rem;
-    height: 1rem;
-    width: 14.125rem;
-    color: grey;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.875rem;
-    line-height: 1rem;
-}
 
 @media screen and (max-width: 375px) {
-    body {
-      max-width: 23.4375rem;
+    html {
+        box-sizing: border-box;
     }
 
-    h1 {
-        left: 0.75rem;
-        top: 4.4375rem;
+    body {
+        min-height: 100vh;
+        background: whitesmoke;
+        font-size: 12px;
+    }
+
+    header {
+        width: 90%;
+        margin-top: 71px;
+        margin-bottom: 100px;
+        float: none;
+    }
+
+    header h1 {
+        width: 90%;
+        font-family: PT Serif;
+        font-style: normal;
         font-weight: bold;
-        font-size: 2.05rem;
-        width: 17rem;
+        font-size: 2rem;
+        line-height: 2rem;
+        letter-spacing: -0.045em;
+        color: black;
     }
-    
-    h3 {
-        width: 7.3125rem;
+
+    header section {
+        width: 100%;
+        float: left;
+    }
+
+    header h2 {
+        width: 90%;
         height: 1.7rem;
-        left: 0.75rem;
-        top: 9.75rem;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.1rem;
+        line-height: 1rem;
+        text-transform: uppercase;
+        color: black;
     }
-    
-    p.content {
-        width: 17rem;
-        height: 5.4375rem;
-        left: 0.75rem;
-        top: 12.0625rem;
-        font-size: 0.75rem;
-        line-height: 1.3125rem;
+
+    header h3 {
+        width: 100%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        color: black;
+        font-size: 1.1rem;
+        line-height: 1.25rem;
     }
 
     .container {
-        width: 21.1875rem;
-        margin-top: 20.625rem;
-        margin-left: 1.1875rem;
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+        clear: both;
+        margin-top: 100px;
     }
 
-    .container img {
-        width: 8.625rem;
-        height: 13.0625rem;
+    figure {
+        margin: 0 auto;
+        display: inline-block;
+        padding: 0 5px;
+        margin-bottom: 20px;
+        width: 45%;
+        max-width: 100%;
+        text-align: initial;
     }
 
-    .container .role {
-        position: absolute;
-        top: 0;
-        left: 7.9rem;
+    figure .role {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
         text-transform: uppercase;
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        margin-top: -142%;
+        margin-left: 140px;
         width: 1rem;
-        height: 7.8rem;
-        font-size: 0.625rem;
-        line-height: 0.8rem;
-    }
-    
-    .container p {
-        position: absolute;
-        width: 9.375rem;
-        height: 1.125rem;
-        top: 12.5rem;
-        font-size: 0.875rem;
-        line-height: 1.3rem;
-    }
-    
-    .photo-container {
-        width: 50%;
-        position: relative;
-        padding: 0px;
-        margin-bottom: 1.875rem;
-    }
-    
-    .mid {
-        margin-top: 0;
-    }
-    
-    .mid .role {
-        top: 0;
-    }
-    
-    .mid img {
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    
-    .mid p {
-        padding-left: 0;
-        top: 12.5rem;
+        height: 7.8125rem;
+        margin-bottom: 120px;
     }
 
-    .mob-drop {
-        margin-top: 2.5rem;
+    figcaption {
+        padding-top: 5px;
+        font-weight: 600;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.035rem;
+        text-align: initial;
+        margin-left: 0;
+    }
+
+    img {
+        width: 85%;
+        height: 25vh;
     }
 
     footer {
-        padding-top: 3.125rem;
+        margin: 15px auto;
+        height: 1rem;
+        width: 14.125rem;
+        color: grey;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
         font-size: 0.875rem;
-        line-height: 1rem;
     }
-    
-} */
+
+    address {
+        font-style: normal;
+    }
+}
